@@ -1,0 +1,30 @@
+aws:
+  s3-endpoint:
+  accesskey:
+  secretkey:
+
+logdb:
+  endpoint:
+  name:
+  username:
+  password:
+
+source-root-url: https://samplelib.com/lib/preview/png/
+
+predefined:
+  image-types:
+    -
+      name: thumbnail
+      height: 100
+      width: 100
+      quality: 50
+      scale-type: crop
+      image-type: PNG
+    -
+      name: small
+      height: 250
+      width: 250
+      quality: 100
+      scale-type: fill
+      image-type: JPG
+      fill-color: #FFF
